@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/Copia-de-dawn.png);
+    /* border: 10px solid black; */
+    font-family: 'Indie Flower', cursive;
+    color: #dfdfdf;
+}
+
+
+img{
+    width: 60%;
+    position: absolute;
+    bottom: -30px;
+    display: block;
+    left: 20%;
+    /* margin: 0 auto; */
+}
+
+
+@media  (max-width:1024px){
+    [class*="col-"]{
+        width: 100%;
+    }body{
+        background-image: url(../img/Copia-de-Landscape.jpg);
+        font-family: 'Indie Flower', cursive;
+        color: #dfdfdf;
+    }
+}
+@media (min-width:511px) and (max-width: 844px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    body{
+        background-image: url(../img/Copia-de-dawn.png);
+        font-family: 'Indie Flower', cursive;
+        color: #dfdfdf;
+    }
+  
+}
+@media (min-width:300px) and (max-width: 510px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    body{
+        background-image: url(../img/Copia-de-maxresdefault.jpg);
+        font-family: 'Indie Flower', cursive;
+        color: #dfdfdf;
+    }
+  
+}
