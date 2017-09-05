@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-image: url(../img/Copia-de-dawn.png);
-    /* border: 10px solid black; */
+
     font-family: 'Indie Flower', cursive;
     color: #dfdfdf;
     font-size: 30px;
@@ -14,7 +14,7 @@ img{
     bottom: -30px;
     display: block;
     left: 20%;
-    /* margin: 0 auto; */
+
 }
 
 
